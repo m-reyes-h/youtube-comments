@@ -1,4 +1,5 @@
 import React from "react"
+import '../styles/index.css';
 import CommentForm from "../components/CommentForm"
 import Layout from '../components/Layout'
 
