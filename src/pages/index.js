@@ -1,8 +1,9 @@
 import React from "react"
 import CommentForm from "../components/CommentForm"
+import Layout from '../components/Layout'
 
 export default () => (
-  <React.Fragment>
+  <Layout>
     <header>
       <h1>Youtube comments</h1>
     </header>
@@ -10,5 +11,5 @@ export default () => (
       <CommentForm />
     </main>
     <footer>footer</footer>
-  </React.Fragment>
+  </Layout>
 )
